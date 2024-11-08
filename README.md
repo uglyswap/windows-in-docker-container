@@ -5,8 +5,9 @@ Discover an innovative and efficient method of deploying Windows OS (x64) on you
 
 # 📋 Prerequisites
 
-- [Docker](https://www.docker.com/) version 24 or higher.
-- [docker-compose](https://www.docker.com/) version 1.18 or higher.
+- [Docker](https://www.docker.com/) version 20 or higher.
+
+> The docker compose is embedded as plugin
 
 # 🚀 Deployment Guide
 
@@ -33,7 +34,7 @@ services:
     ports:
       - 3389:3389
 ```
-3. Run: `docker-compose up -d`
+3. Run: `docker compose up -d`
 
 ![windows screenshot](https://github.com/vaggeliskls/windows-in-docker-container/blob/main/images/screen-1.png?raw=true )
 
