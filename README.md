@@ -23,7 +23,7 @@ version: "3.9"
 
 services:
   win10:
-    image: ghcr.io/vaggeliskls/windows-in-docker-container:latest
+    image: docker.io/vaggeliskls/windows-in-docker-container:latest
     env_file: .env
     stdin_open: true
     tty: true
